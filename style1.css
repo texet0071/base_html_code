@@ -19,17 +19,16 @@ a{
     text-decoration: none;
 }
 
-.buttom {
-    font: inherit;
-
-    text-align: center;
-    color: #fff;
-    vertical-align: middle;
+button {
+    display: block;
+    padding: 5px;
+    background: black;
+    color: white;
+    font-size: 14px;
     text-transform: uppercase;
-    
-    background-color: #000;
-    border: none;
-}
+    outline: 0;
+    border: 0;
+    }
 
 .buttom:hover,
 .buttom:focus,
