@@ -19,20 +19,21 @@ a{
     text-decoration: none;
 }
 
-button {
-    display: block;
-    padding: 5px;
-    background: black;
-    color: white;
-    font-size: 14px;
+.button {
+    font: inherit;
+    
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
     text-transform: uppercase;
-    outline: 0;
-    border: 0;
+    
+    background-color: #000;
+    border: none;
     }
 
-.buttom:hover,
-.buttom:focus,
-.buttom:active {
+.button:hover,
+.button:focus,
+.button:active {
     background-color: #663d15;
 }
 
@@ -45,12 +46,12 @@ button {
 }
 
 .site-navigation,
-.user-navigation{
+.user-navigation {
     list-style: none;
 }
 
 .site-navigation a,
-.user-navigation a{
+.user-navigation a {
     color: #fff;
 }
 
@@ -74,7 +75,7 @@ button {
     line-height: 42px;
 }
 
-.index-columns{
+.index-columns {
     color: #000;
 
     background-color: #f8f5f2;
@@ -134,7 +135,7 @@ button {
     text-align: center;
 }
 
-.footer-social  ul{
+.footer-social  ul {
     list-style: none;
 }
 
