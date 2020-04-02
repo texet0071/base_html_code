@@ -431,19 +431,27 @@ body {
 }
 
 .news{
-    width: 380px;
+    width: 300px;
+
+    min-height: 315px;
 }
 
 .gallery {
     width: 300px;
+
+    min-height: 31px;
 }
 
 .contacts {
     width: 380px; 
+
+    min-height: 315px;
 }
 
 .appointmet {
     width: 300px;
+
+    min-height: 340px;
 }
 
 .main-footer .container {
