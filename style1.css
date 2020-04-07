@@ -18,7 +18,28 @@ body {
 a {
     text-decoration: none;
 }
+ 
+.img {
+    max-width: 100%;
+    height: auto;
+}
 
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
 
 
 .inner-page {
@@ -52,8 +73,12 @@ a {
     font-size: 16px;
     line-height: 20px;
     color: #fff;
+}
 
-    background-color: #000;
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
 }
 
 .site-navigation,
@@ -62,7 +87,9 @@ a {
 }
 
 .site-navigation a,
-.user-navigation a {
+.user-navigation a  {
+    display: block;
+    padding: 25px 20px;
     color: #fff;
 }
 
@@ -374,6 +401,14 @@ body {
     align-items: center;
 }
 
+.site-navigation,
+.user-navigation {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
 .site-navigation {
     width: 620px;
     margin: 0;
@@ -382,12 +417,27 @@ body {
     list-style: none;
 }
 
-.user-navigation {
-    width: 140px;
-    margin: 0;
-    padding: 0;
+.user-navigation .login-link {
+    position: relative;
+    padding-left: 50px;
+}
 
-    list-style: none;
+.login-link::before {
+    content:"";
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    top: 27px;
+    left: 24px;
+    background-image: url(img/login.svg)
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color:#ff0000;
+}
+
+.user-navigation {
+    display: flex;
+    max-width: 140px;  
 }
 
 .main-navigation-wrapper {
