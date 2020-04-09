@@ -75,12 +75,6 @@ input[type="radio"].visually-hidden {
     color: #fff;
 }
 
-.site-navigation {
-    display: flex;
-    flex-wrap: wrap;
-    width: 620px;
-}
-
 .site-navigation,
 .user-navigation {
     list-style: none;
@@ -105,19 +99,47 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item {
+    width: 300px;
     text-align: center;
 }
 
 .feature-item h3 {
+    position: relative;
+    margin: 0;
+    margin-bottom: 60px;
     font-size: 30px;
     line-height: 42px;
 }
 
+.feature-item h3::after {
+    content: "";
+
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    background-color: #fff;
+    transform: rotate(45deg);
+
+}
+
+.feature-item p {
+    margin: 0 10px;
+}
+
 .index-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    margin-bottom: 35px;
     color: #000;
 
     background-color: #f8f5f2;
-    background-image: url("img/pattern-light.jpg");
+    background-image: 
+    url("img/line.png")
+    url("img/pattern-light.jpg");
     background-position: 0 0;
     background-repeat: repeat;
 }
@@ -411,10 +433,8 @@ body {
 
 .site-navigation {
     width: 620px;
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .user-navigation .login-link {
@@ -429,15 +449,21 @@ body {
     position: absolute;
     top: 27px;
     left: 24px;
-    background-image: url("img/login.svg");
+    background-image: url("img/login.png");
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-color:#ff0000;
+    opacity: 0.3;
+}
+
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before {
+    opacity: 1;
 }
 
 .user-navigation {
     display: flex;
-    max-width: 140px;  
+    max-width: 140px; 
 }
 
 .main-navigation-wrapper {
@@ -482,9 +508,7 @@ body {
 }
 
 .news {
-    width: 300px;
-
-    min-height: 315px;
+    width: 380px;
 }
 
 .gallery {
