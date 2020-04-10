@@ -148,9 +148,9 @@ input[type="radio"].visually-hidden {
 
     background-color: #f8f5f2;
     background-image: 
-        url("img/line.png")
+        url("img/line.png"),
         url("img/pattern-light.jpg");
-    background-position: center 0 0;
+    background-position: center;
     background-repeat: no-repeat, repeat;
 }
 
@@ -546,6 +546,7 @@ body {
 
 .main-navigation-wrapper .container {
     display: flex;
+    justify-content: space-between;
 }
 
 .container {
