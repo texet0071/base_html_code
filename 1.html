@@ -79,11 +79,13 @@
 
 			<section class="gallery">
 				<h2>Фотогалерея</h2>
+				<div class="gallery-container">
 				<figure class="gallery-content">
 					<a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Интерьер"></a>
 				</figure>
-				<button class="button gallery-button gallery-button-back" type="button">Назад</button>
+				<button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
 				<button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+				</div>
 			</section>
 		</div>
 		<div class="index-columns">
@@ -94,6 +96,11 @@
 					Адрес: г. Санкт-Петербург, Б. Конюшенская, д. 19/8 <br>
 					Телефон: +7 ( 812 666-02-66)
 				</p>
+				<p>
+					Время работы:<br>
+					пн-пт: с 10:00 до 22:00<br>
+					сб-вс: с 10:00 до 19:00
+				</p>
 				<a class="button" href="map.html">Как проехать</a>
 				<a class="button" href="contacts.html">Обратная связь</a>
 			</section>
@@ -102,7 +109,7 @@
 				<h2>Записаться</h2>
 				<p class="appointmet-info">Укажите желаемую дату и время и мы свяжемся с вами
 					для подтверждения брони</p>
-				<form class="appointmebt-info" action="https://echo.htmlacademy.ru">
+				<form class="appointmet-form" action="https://echo.htmlacademy.ru">
 					<p class="appointment-item">
 						<label for="appointment-date">Дата</label>
 						<input id="appointment-date" type="text" name="time" value="08.10.2017">

@@ -52,6 +52,9 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 30px;
     font: inherit;
 
     text-align: center;
@@ -67,6 +70,13 @@ input[type="radio"].visually-hidden {
 .button:focus,
 .button:active {
     background-color: #663d15;
+}
+
+.button.disabled,
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color:#000;
 }
 
 .main-navigation {
@@ -138,19 +148,33 @@ input[type="radio"].visually-hidden {
 
     background-color: #f8f5f2;
     background-image: 
-    url("img/line.png")
-    url("img/pattern-light.jpg");
-    background-position: 0 0;
-    background-repeat: repeat;
+        url("img/line.png")
+        url("img/pattern-light.jpg");
+    background-position: center 0 0;
+    background-repeat: no-repeat, repeat;
 }
 
 .index-columns h2 {
+    margin: 0;
+    margin-bottom: 25px;
+
     font-size: 30px;
     line-height: 42px;
 }
 
 .news-list {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
     list-style: none;
+}
+
+.news-item {
+    margin-bottom: 25px;
+}
+
+.news-item p {
+    margin: 0;
 }
 
 .news-item time {
@@ -158,11 +182,52 @@ input[type="radio"].visually-hidden {
 }
 
 .gallery-content {
+    height: 164px;
+    margin: 0;
     background-color: #ccc;
     border: 7px solid #fff;
 }
 
+.gallery-content img {
+    width: 286px;
+    height: 164px;
+}
+
+.gallery-container {
+    position: relative;
+    height: 260px;
+}
+
+.gallery-button {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+
+    width: 140px;
+    margin: 0;
+}
+
+.gallery-button-back {
+    left: 0;
+}
+
+.gallery-button-next {
+    right: 0;
+}
+
+.appointment-item label {
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 15px;
+}
+
 .appointment-item input {
+    box-sizing: border-box;
+    width: 140px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
     font: inherit;
 
     background-color: transparent;
@@ -171,6 +236,12 @@ input[type="radio"].visually-hidden {
 
 .appointment-item input:focus {
     border-color: #663d15;
+}
+
+.appointmet .button {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
 }
 
 .page-title {
@@ -500,33 +571,42 @@ body {
     width: 300px;
 }
 
-.index-columns {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 80 px;
-    margin-bottom: 35px;
-}
-
 .news {
     width: 380px;
 }
 
 .gallery {
     width: 300px;
-
-    min-height: 31px;
 }
 
 .contacts {
     width: 380px;
+}
 
-    min-height: 315px;
+.contacts p {
+    margin: 0;
+    margin-bottom: 25px;
 }
 
 .appointmet {
     width: 300px;
+}
 
-    min-height: 340px;
+.appointmet-info {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.appointmet-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.appointment-item {
+    width: 140px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .main-footer .container {
