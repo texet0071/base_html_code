@@ -531,7 +531,7 @@ input[type="radio"].visually-hidden {
 }
 
 .login-icon-password {
-    background-image: url("img/lock.svg");
+    background-image: url("img/lock.png");
     background-position: 270px center;
     background-repeat: no-repeat;
 }
