@@ -72,7 +72,50 @@ input[type="radio"].visually-hidden {
     border: none;
 }
 
+.catalog-item-price  b {
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 30px;
+    font: inherit;
 
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000;
+    border: none;
+}
+
+.product-price b {
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 30px;
+    font: inherit;
+
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000;
+    border: none;
+}
+
+.pagination-list li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font: inherit;
+
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000;
+    border: none;
+}
 
 .button:hover,
 .button:focus,
@@ -281,6 +324,7 @@ input[type="radio"].visually-hidden {
 }
 
 .custom-list-1 {
+    padding: 65px;
     margin: 14px 0;
     padding: 0;
     list-style: none;
@@ -288,42 +332,55 @@ input[type="radio"].visually-hidden {
 
 .custom-list-1 li {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     padding-left: 20px;
+    line-height: 0.7;
 }
 
 .custom-list-1 li::before {
     content: "";
     position: absolute;
-    top: 8px;
+    bottom: 8px;
     left: 0;
     width: 8px;
     height: 8px;
     background-color:#000;
     transform: rotate(45deg);
 }
+
+
 
 .breadcrumbs {
     display: flex;
     list-style: none;
-    justify-content: flex-start;  
+    margin-bottom: 45px;
 }
 
 .breadcrumbs a {
     color: #000;
-    padding: 25px;
     margin: 0  auto;
 }
 
-.breadcrumbs li::before{
-    content: "";
+.breadcrumbs a {
+    position: relative;
+    display: inline;
+    padding-right: 40px;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumbs a::after {
     position: absolute;
-    top: 8px;
-    left: 0;
+    bottom: 5px;
+    right: 15px;
     width: 8px;
     height: 8px;
-    background-color:#000;
+    background: black;
     transform: rotate(45deg);
+    content: "";
 }
 
 .breadcrumbs a:hover,
@@ -334,6 +391,12 @@ input[type="radio"].visually-hidden {
 .breadcrumbs-current {
     color: #aba9a7;
 }
+
+.product-price {
+    padding: 40px;  
+}
+
+
 
 .filter fieldset {
     border: none;
@@ -364,6 +427,8 @@ input[type="radio"].visually-hidden {
     list-style: none;
 }
 
+
+
 .catalog-item {
     background-color: #f8f8f8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -375,6 +440,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-item a {
     color: #000;
+    
 }
 
 .catalog-item h3 {
