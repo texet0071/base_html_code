@@ -146,6 +146,8 @@ input[type="radio"].visually-hidden {
     font-size: 16px;
     line-height: 20px;
     color: #fff;
+    width: 960px;
+    margin: auto;
 }
 
 .site-navigation,
@@ -1116,3 +1118,4 @@ body {
 .inner-page .main-footer {
     margin-top: 45px;
 }
+
