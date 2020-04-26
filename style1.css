@@ -79,7 +79,7 @@ input[type="radio"].visually-hidden {
     font: inherit;
 
     text-align: center;
-    color: #fff;
+    color: #000;
     vertical-align: middle;
     text-transform: uppercase;
 
@@ -89,17 +89,29 @@ input[type="radio"].visually-hidden {
 
 .product-price b {
     display: inline-block;
-    margin-right: 16px;
-    padding: 10px 30px;
+    padding: 11.5px 30px;
     font: inherit;
 
     text-align: center;
-    color: #fff;
+    color: #000;
     vertical-align: middle;
     text-transform: uppercase;
 
     background-color: #000;
     border: none;
+}
+
+.product-text {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+
+.info1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    max-width: 390px;
 }
 
 .pagination-list li {
@@ -394,6 +406,7 @@ input[type="radio"].visually-hidden {
 
 .product-price {
     padding: 40px;  
+    color:#e5e5e5;
 }
 
 
@@ -519,7 +532,6 @@ input[type="radio"].visually-hidden {
 .product-price b {
     line-height: 20px;
     text-align: center;
-
     background-color: #e5e5e5;
 }
 
