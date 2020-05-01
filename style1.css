@@ -149,8 +149,8 @@ input[type="radio"].visually-hidden {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-
 }
+
 
 
 
@@ -419,7 +419,7 @@ input[type="radio"].visually-hidden {
 
 
 .filter fieldset {
-    border: none;
+    border: 0;
 }
 
 .filter legend {
@@ -452,6 +452,7 @@ input[type="radio"].visually-hidden {
 .catalog-item {
     background-color: #f8f8f8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 .catalog-item:hover {
@@ -466,6 +467,7 @@ input[type="radio"].visually-hidden {
 .catalog-item h3 {
     font-size: 14px;
     line-height: 18px;
+    
 }
 
 .catalog-category {
@@ -520,15 +522,15 @@ input[type="radio"].visually-hidden {
 }
 
 .product-photo-preview li:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .product-photo-preview li {
-    box-shadow: 0 0 10px 2 px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 2 px rgba(0, 0, 0, 0.3);
 }
 
 .product-photo-full {
-    box-shadow: 0 0 10px 2 px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 2 px rgba(0, 0, 0, 0.3);
 }
 
 .product-article {
