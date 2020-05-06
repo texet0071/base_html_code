@@ -131,8 +131,18 @@ a {
     font-size: 16px;
     line-height: 20px;
     color: #fff;
+    width: 0 auto;
+    margin:auto;
+}
+
+.main-navigation2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
     width: 960px;
     margin:auto;
+    display: flex;
+
 }
 
 .visually-hidden:not(:focus):not(:active),
