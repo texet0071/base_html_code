@@ -57,20 +57,7 @@ a {
     border: none;
 }
 
-.catalog-item-price  b {
-    display: inline-block;
-    margin-right: 16px;
-    padding: 10px 30px;
-    font: inherit;
 
-    text-align: center;
-    color: #000;
-    vertical-align: middle;
-    text-transform: uppercase;
-
-    background-color: #000;
-    border: none;
-}
 
 .product-price b {
     display: inline-block;
@@ -134,6 +121,24 @@ a {
     width: 0 auto;
     margin:auto;
 }
+
+.catalog-item-price{
+    display: flex;
+}
+
+
+
+.catalog-item-price b {
+    margin-bottom: auto;
+    padding-right: 10px 5px;
+    padding: 10px 30px;
+}
+
+.catalog-item-price .button {
+    margin-bottom: auto;
+    
+}
+
 
 .main-navigation2{
     font-size: 16px;
@@ -439,7 +444,7 @@ input[type="radio"].visually-hidden {
 
 .filter ul {
     list-style: none;
-    line-height: 18px;
+    line-height: 25px;
 }
 
 .filter-input:hover+label,
