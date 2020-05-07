@@ -126,7 +126,74 @@ a {
     display: flex;
 }
 
+.list1 input[type="checkbox"] {
+    opacity: 0;
+}
 
+.list1 label::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid;
+    left: 2px;
+    top: 3px;
+   
+}
+
+.list1 label::before,
+.list1 label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+
+}
+
+
+.list1 label::after {
+    height: 5px;
+    width: 9px;
+    left: 4px;
+    top: 7px;
+    border-top: 2px solid;
+}
+
+
+.list1 label {
+    position: relative;
+    padding-left: 22px;
+  
+}
+
+.list1 input[type="checkbox"] + label::after {
+    content: none;
+}
+
+.list1 input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+
+
+
+.list2 input[type="checkbox"] + label::after {
+    content: none;
+}
+
+.list2 input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+.list2 li:before {
+    content:'';
+    width: 20px;
+    height: 20px;
+    border:solid 1px black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    
+}
 
 .catalog-item-price b {
     margin-bottom: auto;
@@ -153,6 +220,7 @@ a {
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
+   
     position: absolute;
     width: 1px;
     height: 1px;
@@ -165,6 +233,7 @@ input[type="radio"].visually-hidden {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 
 
 
@@ -562,6 +631,7 @@ input[type="radio"].visually-hidden {
 .product-info h3 {
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 35px;
 }
 
 .product-info ul {
@@ -622,7 +692,7 @@ input[type="radio"].visually-hidden {
 }
 
 
-/*
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -633,7 +703,7 @@ input[type="radio"].visually-hidden {
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
-*/
+
 .modal-login {
     top:120px;
     left: 50%;
@@ -1110,7 +1180,7 @@ body {
     width: 220px;
     margin-bottom: 20px;
     margin-right: 20px;
-
+    
     min-height: 285px;
 }
 
