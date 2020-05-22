@@ -1,0 +1,141 @@
+body {
+    width: 100%;
+    background-color: #eaeaea;
+}
+
+.logo-header{
+    text-align: center;   
+    margin-bottom: 120px;
+} 
+   
+.navigation {
+    background-image: url(img/fonenav.png);
+    width: 80%;
+    box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
+    background-color: #f8f8f8;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .logonav{
+     padding-left: 91px;
+     padding-right: 92px;
+     padding-top: 10px;
+ }
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 534px;
+    height: 10px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    letter-spacing: 0.4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 0.45px;
+}
+
+.box{
+    padding-top: 30px;
+    padding-left: 91px;
+    padding-right: 51px;
+}
+
+.content { 
+    background-image: url(img/Photo.png);
+    width: 80%;
+    margin: auto;
+    }
+
+.logo{
+    padding-top: 49px ;
+    margin-left: 91px;
+    margin-top: 49px;
+    margin-right: 776px;
+    margin-bottom: 35px;
+}
+
+.texet1 { 
+    width: 355px;
+    height: 20px;
+    color: #921026;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    margin-left: 89px;
+}
+.texetcon { 
+    width: 312px;
+    height: 90px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    margin-bottom: 30px;
+    margin-left: 91px;
+}
+.btn {
+
+    width: 103px;
+    height: 26px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-left: 91px;
+    margin-bottom: 50px;
+    
+ }
+.conteiner { 
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    
+
+}
+.foot {
+    margin: 0 -5%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 85px;
+ }
+
+.foot p {
+    width: 247px;
+    height: 37px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.45px;
+    
+}
+
+
+.footer{
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 3px 7px rgba(11, 12, 12, 0.14);
+    background-color: #000000;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social { 
+
+}
+.social-button { }
+.visually-hidden { }
