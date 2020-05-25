@@ -3,17 +3,26 @@ body {
     background-color: #eaeaea;
 }
 
+a :active, /* активная/посещенная ссылка */
+a :hover,  /* при наведении */
+a о {
+  text-decoration: none;
+  color: #fefefe;
+}
+
 .logo-header{
     text-align: center;   
     margin-bottom: 120px;
+    padding-top: 250px ;
 } 
    
 .navigation {
-    background-image: url(img/fonenav.png);
+    background-color: #f8f8f8;
     width: 80%;
+    height: 20%;
     box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
     background-color: #f8f8f8;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
  }
@@ -21,7 +30,8 @@ body {
  .logonav{
      padding-left: 91px;
      padding-right: 92px;
-     padding-top: 10px;
+     padding-top: 43px;
+     padding-bottom: 44px;
  }
 
 .navigation-list{
@@ -37,13 +47,13 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.4px;
     letter-spacing: 0.4px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 57px;
+    padding-bottom: 52px;
     letter-spacing: 0.45px;
 }
 
 .box{
-    padding-top: 30px;
+    padding-top: 70px;
     padding-left: 91px;
     padding-right: 51px;
 }
@@ -51,8 +61,7 @@ body {
 .content { 
     background-image: url(img/Photo.png);
     width: 80%;
-    margin: auto;
-    
+    margin: 0 auto;
     }
 
 .logo{
@@ -144,9 +153,12 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.3px;
-    padding-left: 112px;
-    padding-top: 90px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 105px;
     padding-bottom: 85px;
+    text-align: right;
+
 }   
 
 .logofooter {
@@ -171,12 +183,22 @@ body {
     letter-spacing: 0.3px;
     letter-spacing: 0.3px;
     padding-left: 112px;
-    padding-top: 90px;
+    padding-top: 105px;
     padding-bottom: 85px;
 }
 
 
-.footer-social { 
-    
-  
+
+
+.social {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+    align-content: stretch;
+    padding-right: 150px;
+    list-style: none;
+    margin: 0 auto;
+    width: 80%;
 }
