@@ -1,13 +1,20 @@
 body {
-    width: 100%;
+    width: 1440px;
     background-color: #eaeaea;
 }
 
-a :active, /* активная/посещенная ссылка */
-a :hover,  /* при наведении */
-a о {
+a :active, 
+a :hover, 
+a {
   text-decoration: none;
   color: #fefefe;
+}
+
+.nav:active, 
+.nav:hover, 
+.nav {
+  text-decoration: none;
+  color: #000000;
 }
 
 .logo-header{
@@ -18,13 +25,13 @@ a о {
    
 .navigation {
     background-color: #f8f8f8;
-    width: 80%;
-    height: 20%;
+    width: 1120px;
     box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
     background-color: #f8f8f8;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
  }
 
  .logonav{
@@ -60,8 +67,9 @@ a о {
 
 .content { 
     background-image: url(img/Photo.png);
-    width: 80%;
+    width: 1119px;
     margin: 0 auto;
+    
     }
 
 .logo{
@@ -108,7 +116,8 @@ a о {
     
  }
 .conteiner { 
-    width: 80%;
+    width: 1120px;
+    
     margin: auto;
     background-color: #ffffff;
     padding-top: 40px;
@@ -136,8 +145,9 @@ a о {
 
 
 .footer{
-    width: 80%;
-    margin: auto;
+    width: 1120px;
+    height: 180px;
+    margin: 0 auto;
     box-shadow: 1px 3px 7px rgba(11, 12, 12, 0.14);
     background-color: #000000;
     opacity: 0.8;
@@ -200,5 +210,5 @@ a о {
     padding-right: 150px;
     list-style: none;
     margin: 0 auto;
-    width: 80%;
+   
 }
