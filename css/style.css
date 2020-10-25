@@ -1,10 +1,13 @@
 
+.wrapper{
+
+}
 .contact{
-	
 	background-color:#000000;
 	color: #969696;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: -30px;
 }
 
 .header-navigation{
@@ -14,7 +17,6 @@
 }
 
 .header-logo{
-	font-family: Post No Bills Jaffna;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
@@ -22,17 +24,16 @@
 }
 
 .navigation{
+	list-style: none;
 	display: flex;
 	justify-content: flex-end;
-	font-family: PT Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
 }
 
 .container1{
-	background-image: url(/img/Rectangle3.png);
+	
 
+}
+
+.contaoiner2{
+	
 }
