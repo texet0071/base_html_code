@@ -1,39 +1,104 @@
 
 .wrapper{
-
+	width: 1060px;
+	margin:  0 auto;
+	display: flex;
+	justify-content:space-between;
 }
 .contact{
-	background-color:#000000;
+	background-color:#0F0F0F;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
 	color: #969696;
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: -30px;
+	
 }
 
+
+
 .header-navigation{
-	
 	background: #0F0F0F;
 	color: #FFFFFF
+	
 }
 
 .header-logo{
+	font-family: Post No Bills Jaffna;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 54px;
+	color: #FFFFFF;
 }
 
 .navigation{
-	list-style: none;
 	display: flex;
-	justify-content: flex-end;
+}
+
+.nav-item{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 40px;
+	
+	
+}
+
+.nav-link{
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active{
+	opacity: 80%;
+}
+
+a{
+	color: #FFFFFF;
 }
 
 .container1{
-	
+	background:url(/img/Rectangle3.jpg);
+	height: 810px;
+	left: 0px;
+	top: 124px;
+}
+
+.logo-content{
+	font-family: Post No Bills Jaffna;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 96px;
+	text-align: center;
+	color: #FFFFFF;
 
 }
 
-.contaoiner2{
-	
+.city{
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.textlorem{
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
