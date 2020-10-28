@@ -2,8 +2,7 @@
 .wrapper{
 	width: 1060px;
 	margin:  0 auto;
-	display: flex;
-	justify-content:space-between;
+	
 }
 .contact{
 	background-color:#0F0F0F;
@@ -16,11 +15,17 @@
 	
 }
 
-
+.contact-header{
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
 
 .header-navigation{
 	background: #0F0F0F;
-	color: #FFFFFF
+	border:1px solid ;
+	
 	
 }
 
@@ -34,15 +39,19 @@
 }
 
 .navigation{
+	
+}
+
+.nav-menu{
 	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 80px;
 }
 
 .nav-item{
-	display: flex;
-	justify-content: space-between;
 	margin-left: 40px;
-	
-	
+	list-style: none;
 }
 
 .nav-link{
@@ -78,7 +87,6 @@ a{
 	line-height: 96px;
 	text-align: center;
 	color: #FFFFFF;
-
 }
 
 .city{
@@ -96,9 +104,30 @@ a{
 	font-family: PT Sans;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 22px;
-	line-height: 28px;
+	font-size: 16px;
+	line-height: 150%;
+	/* or 24px */
+
 	text-align: center;
 	text-transform: uppercase;
+
 	color: #FFFFFF;
+	
+}
+
+.content-centr{
+
+}
+
+.content-text{	
+	  
+}
+
+.cetr{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
