@@ -101,6 +101,7 @@
        background: url(../img/Hero.jpg) no-repeat center;
        background-size: cover;
        padding-top: 263px;
+       padding-bottom: 300px;
   }
 
   .intro_title{
@@ -161,3 +162,46 @@
     background:#0b489a;
 }
    /*intro styles end*/
+
+
+
+
+   /*benefist styles start*/
+
+    .benefist_wrap{
+        max-width: 1262px;
+        background-color: #fff;
+        margin: 0 auto;
+        box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+        position: relative;
+
+    }
+
+    .benefist_title{
+        width: 100%;
+        font-size: 35px;
+        line-height: 42px;
+        font-weight: 500;
+        padding: 93px 100px 88px 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-100%);
+        background-color:#fff;
+    }
+
+    .benefist_cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 55px;
+        padding: 0 100px;
+    }
+
+ 
+
+
+   /*benefist styles end*/
+
+
+
+ 
