@@ -347,7 +347,8 @@
     .places_cards{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-gap: 10px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
     }
 
     .places_card{
@@ -424,7 +425,7 @@
     .tours_tour{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 0 108px ;
+        grid-column-gap: 108px ;
         align-items:center;
         margin-bottom: 77px;
     }
@@ -469,8 +470,9 @@
 
     .top_cards{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap:  57px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap:  57px;
+        grid-row-gap:  57px;
         margin-bottom: 144px;
     }
 
@@ -486,6 +488,7 @@
     .top_car{
         display: flex;
         flex-direction: column;
+        grid-column: span 2;
 
     }
 
@@ -629,11 +632,73 @@
 
 /*media start*/
 
+@media screen and (max-width: 960px) {
+    .benefits{
+        margin-bottom: 75px;
+    }
+
+    .serach-form_field{
+        margin-bottom: 25px;
+    }
+
+    .benefist_card{
+        margin-bottom: 60px;
+        padding: 0 15px;
+        grid-column-gap: 35px;
+    }
+
+    .benefist_title{
+        padding: 55px 15px;
+    }
+
+    .benefist_wrap{
+        box-shadow: none;
+    }
+
+    .places_card-pic_size_lg{
+        grid-column:  span 6;
+    }
+
+    .places_card-pic_size_sm{
+        grid-column: span 6;
+    }
+
+    .tours_tour{
+        grid-column-gap: 35px;
+    }
+
+    .tours_info{
+        padding-left: 0;
+    }
+
+    .tours_title{
+        margin-bottom: 15px;
+    }
+
+    .tour_desc{
+        margin-bottom: 15px;
+    }
+
+    .top_cards{
+        grid-column-gap: 25px;
+        grid-row-gap: 55px;
+    }
+
+    .top_cards{
+        grid-column: span 3;
+    }
+
+    .top_card-pic{
+        margin-bottom: 25px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .header_burger{
        display: block; 
     }
-    .header-nav{
+
+    .header_nav{
         width: 100%;
         height: 100%;
         position: fixed;
@@ -664,6 +729,7 @@
         font-size: 42px;
         line-height: 48px;
     }
+
     .header_nav-close{
         width: 40px;
         height: 40px;
@@ -672,6 +738,7 @@
         right: 20px;
         z-index: 11;
     }
+
     .header_nav-close-line{
         display: block;
         height: 2px;
@@ -681,9 +748,11 @@
         top: 50%;
         
     }
+
     .header_nav-close-line:first-child{
         transform: translateY(-50%) rotate(45deg);
     }
+
     .header_nav-close-line:last-child{
         transform: translateY(-50%) rotate(-45deg);
     }
