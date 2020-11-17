@@ -29,6 +29,7 @@
   html{
       box-sizing: border-box;
   }
+
   *, *::before, *::after{
       box-sizing: inherit;
   }
@@ -339,7 +340,8 @@
     text-decoration: none;
     background:url(../img/svg/Shape.svg) no-repeat right center;
     padding-right: 59px;
-}
+    }
+
     .places_view-all:hover, .places_view-all:focus{
         opacity: .65;
     }
@@ -730,7 +732,7 @@
         transition: .2s all linear;
     }
 
-    .header_nav-active{
+    .header_nav_active{
         transform: translateX(0);
     }
 
